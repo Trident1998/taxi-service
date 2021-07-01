@@ -37,13 +37,13 @@ Current application uses in their structure N-tier architecture and SOLID princi
 1. Clone this project into your local folder and open the project in an IDE. 
 2. Configure Tomcat Server and set up the MySQL RDBMS on your machine.
 3. Replicate the database from the project by copying the script from init_db.sql into 
-   the MySQL Workbench query editor window.
+   the MySQL Workbench or command line query editor window.
 4. Insert your own MySQL username and login in dbProperties in the ConnectionUtil class.
 5. Setup new connection with:
-    user: "your username"
-    password: "your password"
-    url: jdbc:mysql://xxxx:yyyy/kkkk?serverTimezone=UTC , where:
-    xxxx - host name,
-    yyyy - port,
-    kkkk - database name
+   - user: "your username"
+   - password: "your password"
+   - url: jdbc:mysql://hhhh:pppp/dddd?useUnicode=true&serverTimezone=UTC, where:
+   - hhhh - host name,
+   - pppp - port,
+   - dddd - database name
 6. Run a project
